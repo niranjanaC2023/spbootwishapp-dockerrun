@@ -17,7 +17,7 @@ public class WishController
 	@GetMapping("/msg")
 	public String wishMethod()
 	{
-		long hour  = calendar.getTimeInMillis();
+		int hour  = calendar.get(Calendar.HOUR_OF_DAY);
 		System.out.println("WishController:wishMethod..");
 		if(hour<12)
 			return "Good Morning Baby";
