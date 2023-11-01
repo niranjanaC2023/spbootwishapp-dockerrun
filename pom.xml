@@ -12,7 +12,7 @@
 	<artifactId>SpBootWishAp-DockerRun</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>SpBootWishAp-DockerRun</name>
-	<description>springboot With Docker</description>
+	<description>springboot selecting jar With Docker</description>
 	<properties>
 		<java.version>11</java.version>
 	</properties>
